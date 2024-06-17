@@ -19,3 +19,19 @@ const myFunctions=function(){
     console.log("hello world");
 }
 //non primitive datatypes are of function object type
+// ++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive),heap(non primitive)
+let myname="Aman"
+let myothername=myname
+myothername="sonu"
+console.log(myname);
+console.log(myothername);
+
+let userOne={
+    email:"user1@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="aman@google.com"
+console.log("userOne.email");
+console.log("userTwo.email");
