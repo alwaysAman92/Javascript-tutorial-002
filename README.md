@@ -1,1 +1,1 @@
-# Javascript-tutorial-002
+# Javascript-tutorial-001
